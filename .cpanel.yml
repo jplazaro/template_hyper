@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rdyivblmxrzf/repositorios/auwi_mis_scripts/
+    - / -R images $DEPLOYPATH
